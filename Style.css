@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+}
+#loginImage {
+  width: 30rem;
+  height: 40rem;
+}
+div {
+  display: inline-block;
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: 5rem;
+  margin-right: 10px;
+}
+#email_user,
+#password {
+  border: 1px solid black;
+  padding: 10px 100px 10px 100px;
+  border-radius: 5px;
+}
+button {
+  padding: 5px 170px 5px 160px;
+  text-align: left;
+  background-color: black;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+input {
+  margin-top: 10px;
+}
+a {
+  padding: 10px;
+  margin-left: 60px;
+  text-align: center;
+  color: black;
+}
+#logo {
+  margin-left: 65px;
+}
+@media (max-width: 500px) {
+  #loginImage {
+    display: none;
+  }
+}
